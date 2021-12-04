@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Laboratorio_1</string>
+    <string name="text">Insert text</string>
+    <string name="btn">Print</string>
+    <string name="Short">Short Toast</string>
+    <string name="Long">Long Toast</string>
+    <string name="action_settings">Settings</string>
+    <string name="startApp">has started</string>
+    <string name="resumed">resumed</string>
+</resources>
+

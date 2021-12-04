@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Laboratorio_2</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="deleteData">Delete data</string>
+    <string name="goToForm">Go to Form</string>
+    <string name="nameET">Name</string>
+    <string name="surnameET">Surname</string>
+    <string name="mailET">Mail</string>
+    <string name="passwordET">Password</string>
+    <string name="marriedCHK">Married?</string>
+    <string name="submit">Submit</string>
+    <string name="noValue">No value</string>
+    <string name="alertMessage">Do you want erase data?</string>
+    <string name="married">Married</string>
+    <string name="single">Single</string>
+</resources>

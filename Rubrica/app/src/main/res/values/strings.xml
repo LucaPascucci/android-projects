@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Rubrica</string>
+    <string name="add_persona">Nuova persona</string>
+    <string name="toast_niente_da_mostrare">Niente da mostrare</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_cognome">Cognome</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_email">Email</string>
+    <string name="label_salva">Salva</string>
+    <string name="dialog_attenzione">Attenzione</string>
+    <string name="dialog_dati_mancanti">Dati mancanti</string>
+    <string name="dialog_ok">OK</string>
+    <string name="toast_persona_salvata">Persona salvata correttamente</string>
+    <string name="toast_persona_eliminata">Persona eliminata!</string>
+    <string name="empty">Nessun contatto salvato</string>
+
+    <string name="dialog_si">SI</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_apri_con">Apri con &#8230;</string>
+    <string name="toast_impossibile_aprire_galleria">Impossibile aprire la galleria!</string>
+    <string name="toast_impossibile_aprire_fotocamera">Impossibili aprire la fotocamera!</string>
+    <string-array name="foto_input">
+        <item>Scatta foto</item>
+        <item>Seleziona da galleria</item>
+    </string-array>
+    <string name="dialog_cancella_persona">Sei sicuro di volore eliminare la persona?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_modifica">Modifica</string>
+    <string name="label_elimina">Elimina</string>
+    <string name="title_activity_add_or_edit_persona">AddOrEditPersona</string>
+    <string name="title_activity_details_persona">DetailsPersona</string>
+    <string name="errore_recupero_immagine">Errore durante il recupero dell\'immagine</string>
+</resources>

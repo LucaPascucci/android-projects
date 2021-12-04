@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="8dp"
+              android:paddingTop="8dp"
+              android:paddingRight="8dp"
+              android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:id="@+id/persona_image"
+        android:src="@drawable/person_image_empty"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/persona_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_nome"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/persona_cognome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_cognome"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/persona_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_telefono"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/persona_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/persona_indirizzo"
+        android:hint="@string/indirizzo"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_salva"
+            android:id="@+id/persona_salva"/>
+
+    </LinearLayout>
+</LinearLayout>

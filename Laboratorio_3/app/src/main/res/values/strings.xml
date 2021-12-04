@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Laboratorio_3</string>
+    <string name="add_persona">Nuova persona</string>
+    <string name="toast_niente_da_mostrare">Niente da mostrare</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_cognome">Cognome</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_email">Email</string>
+    <string name="label_salva">Salva</string>
+    <string name="dialog_attenzione">Attenzione</string>
+    <string name="dialog_dati_mancanti">Dati mancanti</string>
+    <string name="dialog_ok">OK</string>
+    <string name="toast_persona_salvata">Persona salvata correttamente</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_modifica">Modifica</string>
+    <string name="label_elimina">Elimina</string>
+</resources>

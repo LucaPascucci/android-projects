@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.lucapascucci.materialdesing.activities.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tabLibrary"
+        android:title="@string/action_tab_library"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/vectorActivity"
+        android:title="@string/title_activity_vector_test"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/animatedRecyclerItem"
+        android:title="@string/title_activity_activity_recycler_item_animations"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navigate"
+        android:title="@string/next"
+        android:orderInCategory="500"
+        android:icon="@drawable/ic_next"
+        app:showAsAction="always"/>
+
+</menu>
